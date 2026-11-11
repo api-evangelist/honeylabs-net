@@ -1,4 +1,4 @@
-# honeylabs-net
+# HoneyLabs
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,134 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-honeylabs-net is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://honeylabs.net/
+HoneyLabs records the scans, exploit requests and client fingerprints that reach its honeypot sensors. It offers free address lookups, feeds for MISP or SIEM, and an MCP server for AI assistants. The service provides REST API (OpenAPI 3.1), TAXII 2.1, and IOC feeds, supporting threat intelligence and security research.
+
+**Areas:** honeypot · threat-intelligence · MCP · API · open-source
+
+## HoneyLabs on APIs.io
+
+Everything profiled for HoneyLabs is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/honeylabs-net/](https://apis.io/providers/honeylabs-net/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [HoneyLabs Bulk API](https://apis.io/apis/honeylabs-net/honeylabs-net-bulk-api/) — Submit a list of addresses.
+- [HoneyLabs Lists API](https://apis.io/apis/honeylabs-net/honeylabs-net-lists-api/) — Cheaper. Ask for many things at once.
+- [HoneyLabs Reports API](https://apis.io/apis/honeylabs-net/honeylabs-net-reports-api/) — One address, ASN, port or CVE.
+- [HoneyLabs Service API](https://apis.io/apis/honeylabs-net/honeylabs-net-service-api/) — About the service itself: plans and limits.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [HoneyLabs Agentic Access](https://apis.io/agentic-access/honeylabs-net/honeylabs-net-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AsnReport](https://apis.io/schemas/honeylabs-net/honeylabs-net-asn-report/)
+- [CveDetail](https://apis.io/schemas/honeylabs-net/honeylabs-net-cve-detail/)
+- [CveList](https://apis.io/schemas/honeylabs-net/honeylabs-net-cve-list/)
+- [EnrichPreview](https://apis.io/schemas/honeylabs-net/honeylabs-net-enrich-preview/)
+- [IpReport](https://apis.io/schemas/honeylabs-net/honeylabs-net-ip-report/)
+- [PlanCatalog](https://apis.io/schemas/honeylabs-net/honeylabs-net-plan-catalog/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Honeylabs Net Context](https://apis.io/jsonld/honeylabs-net/honeylabs-net-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [HoneyLabs API Rules](https://apis.io/rules/honeylabs-net/honeylabs-net-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [HoneyLabs Authentication](https://apis.io/security/honeylabs-net/honeylabs-net-authentication/)
+- [HoneyLabs Domain Security](https://apis.io/security/honeylabs-net/honeylabs-net-domain-security/)
+- [HoneyLabs Vulnerability Disclosure](https://apis.io/security/honeylabs-net/honeylabs-net-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [HoneyLabs Plans Pricing](https://apis.io/plans/honeylabs-net/honeylabs-net-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://honeylabs.net/)
+- [Documentation](https://honeylabs.net/docs)
+- [Getting started](https://honeylabs.net/lookup)
+- [API reference](https://honeylabs.net/openapi.json)
+- [Pricing](https://honeylabs.net/pricing)
+- [Blog](https://honeylabs.net/blog)
+- [Terms of service](https://honeylabs.net/terms)
+- [Privacy policy](https://honeylabs.net/privacy)
+- [GitHub](https://github.com/honeylabshq)
+
+## API Evangelist rating
+
+**Kin Score 57.4** — strong · rubric 0.27.0 · scored 2026-11-11
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 60.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 49.3 |
+| Access clarity | 60.0 |
+
+**Agent readiness 56.0** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | flavored (partial credit) |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/honeylabs-net/](https://apis.io/providers/honeylabs-net/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for HoneyLabs: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/honeylabs-net/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
